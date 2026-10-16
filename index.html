@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kumar Swetank - Full-Stack Developer Portfolio. Building responsive web apps with HTML, CSS, JavaScript, Node.js & more." />
+  <title>Kumar Swetank | Full-Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">KS<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting animate-fade-up">Hello, I'm</p>
+      <h1 class="hero-name animate-fade-up delay-1">Kumar Swetank</h1>
+      <h2 class="hero-title animate-fade-up delay-2">
+        <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+      </h2>
+      <p class="hero-desc animate-fade-up delay-3">
+        Entry-level Full-Stack Developer crafting responsive, interactive web applications with clean code and modern technologies.
+      </p>
+      <div class="hero-buttons animate-fade-up delay-4">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials animate-fade-up delay-5">
+        <a href="https://github.com/kumarswetank30" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:rajpravir945@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+916287039878" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Turning Ideas Into <span class="gradient-text">Interactive Experiences</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm an entry-level Full-Stack Developer based in Gaya, Bihar, with hands-on experience building <strong>7+ responsive web applications</strong>. I specialize in creating interactive interfaces, integrating third-party APIs, implementing real-time communication, and managing projects with Git & GitHub.
+          </p>
+          <p>
+            My toolkit spans the full stack — from pixel-perfect frontends with HTML, CSS & JavaScript to robust backends powered by Node.js, Express.js and Socket.io. I love solving problems, writing clean code, and continuously learning new technologies.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="7">0</span>+
+              <span class="stat-label">Projects Built</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="10">0</span>+
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="3">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-glow"></div>
+          <h3>What I Do</h3>
+          <ul class="services">
+            <li><i class="fas fa-code"></i> Responsive Web Development</li>
+            <li><i class="fas fa-server"></i> Backend & REST APIs</li>
+            <li><i class="fas fa-comments"></i> Real-time Applications</li>
+            <li><i class="fas fa-plug"></i> Third-party API Integration</li>
+            <li><i class="fas fa-bug"></i> Debugging & Optimization</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills</span>
+        <h2 class="section-title">Technologies I <span class="gradient-text">Work With</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-tags">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript (ES6+)</span>
+            <span>DOM Manipulation</span>
+            <span>Responsive Design</span>
+            
+          </div>
+        </div>
+        <div class="skill-category reveal delay-1">
+          <div class="skill-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend & APIs</h3>
+          <div class="skill-tags">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>Socket.io</span>
+            <span>REST APIs</span>
+            <span>Fetch API</span>
+            <span>JSON</span>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-2">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3>Programming & Data</h3>
+          <div class="skill-tags">
+            <span>Java</span>
+            <span>Python</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-3">
+          <div class="skill-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools</h3>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+            <span>npm</span>
+            <span>Postman</span>
+            <span>DevTools</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+        <p class="section-subtitle">A selection of projects that showcase my skills in frontend, backend and API integration.</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder chat">
+              <i class="fas fa-comments"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Node.js</span><span>Express</span><span>Socket.io</span>
+            </div>
+            <h3>Real-Time Chat Room</h3>
+            <p>Real-time messaging app with username-based rooms, online-user tracking, live typing indicators and bidirectional Socket.io events for instant delivery.</p>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card reveal delay-1">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30/MUSIC-PLAYER" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder music">
+              <i class="fas fa-music"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>NUVIBE Music Player</h3>
+            <p>Browser-based music player with artist playlists, playback controls, fixed seek bar, dynamic song lists and reusable logic across album pages.</p>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card reveal delay-2">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30/QUIZ-VERSE" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder quiz">
+              <i class="fas fa-question-circle"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>JavaScript</span><span>Open Trivia API</span>
+            </div>
+            <h3>Quiz Application</h3>
+            <p>Interactive quiz app that loads questions by category & difficulty via public API. Features timer, progress tracking, scoring and restart functionality.</p>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card reveal">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30/Weather-App" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder weather">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>JavaScript</span><span>Open-Meteo API</span>
+            </div>
+            <h3>Weather Application</h3>
+            <p>City search with geocoding + forecast APIs. Displays temperature, humidity and wind speed with dynamic UI updates and error handling.</p>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card reveal delay-1">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30/Amazon-Clone" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder amazon">
+              <i class="fab fa-amazon"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Amazon Clone</h3>
+            <p>Responsive Amazon homepage clone featuring navigation bar, image slider, product cards, horizontal sections and detailed footer.</p>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card reveal delay-2">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/kumarswetank30/Expense-Tracker" target="_blank" class="project-link" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="project-placeholder expense">
+              <i class="fas fa-wallet"></i>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <h3>Expense Tracker</h3>
+            <p>Track income and expenses with a clean interface. Additional projects include To-Do List and MEAMS School Website.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section id="education" class="section education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Learning <span class="gradient-text">Journey</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 – 2026</span>
+            <h3>Diploma in Computer Science & Engineering</h3>
+            <p class="timeline-place">Government Polytechnic Gaya</p>
+            <p>Currently pursuing coursework focused on software development, programming fundamentals and system design.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023</span>
+            <h3>Secondary Education (Class X) – CBSE</h3>
+            <p class="timeline-place">Secondary Delhi Public School</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="certs reveal">
+        <h3 class="certs-title">Certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-card">
+            <i class="fab fa-python"></i>
+            <div>
+              <h4>Python Programming</h4>
+              <p>Spoken Tutorial Project, IIT Bombay (MHRD-NMEICT)</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <i class="fab fa-html5"></i>
+            <div>
+              <h4>HTML</h4>
+              <p>Spoken Tutorial Project, IIT Bombay (MHRD-NMEICT)</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <i class="fab fa-html5"></i>
+            <div>
+              <h4>Java</h4>
+              <p>Spoken Tutorial Project, IIT Bombay (MHRD-NMEICT)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-subtitle">Open to internships, freelance opportunities and full-time roles. Feel free to reach out!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:rajpravir945@gmail.com" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>rajpravir945@gmail.com</p>
+            </div>
+          </a>
+          <a href="tel:+916287039878" class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91-6287039878</p>
+            </div>
+          </a>
+          <a href="https://github.com/kumarswetank30" target="_blank" class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <p>github.com/kumarswetank30</p>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Gaya, Bihar, India</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal delay-1" id="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <strong>Kumar Swetank</strong> © 2026</p>
+      <div class="footer-socials">
+        <a href="https://github.com/kumarswetank30" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:rajpravir945@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
